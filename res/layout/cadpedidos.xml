@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget34"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableLayout
+        android:id="@+id/Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/widget38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digite a Razão Social do Cliente" />
+
+        <EditText
+            android:id="@+id/EdtCnpj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp" />
+
+       
+
+        
+        
+        
+        
+        <TableRow
+	android:id="@+id/widget62"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ICMS"
+       />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IPI" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adcionar Itens" />
+    
+    </TableRow>
+     <TableRow
+	android:id="@+id/widget62"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+
+         <EditText
+             android:id="@+id/EdtTotIcms"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:ems="10" >
+
+             
+         </EditText>
+
+         <EditText
+             android:id="@+id/EdtTotIpi"
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:ems="10" />
+
+         <Button
+             android:id="@+id/BtnItens"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="  +  " />
+    
+    </TableRow>   
+        
+     <TableRow
+            android:id="@+id/widget62"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total: " />
+
+    <TextView
+        android:id="@+id/TxtTotPed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0,00" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total com Desconto" />
+
+    <TextView
+        android:id="@+id/TxtTotDes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0,00" />
+
+</TableRow>    
+<TableRow
+	android:id="@+id/widget62"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnPed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+    
+    </TableRow>
+    
+
+
+ <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3" >
+    </GridView>
+
+   
+
+    </ScrollView>
+
+</TableLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	android:id="@+id/widget34"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TableLayout
+	android:id="@+id/Layout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+<TextView
+	android:id="@+id/widget38"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="CNPJ" />
+<EditText
+	android:id="@+id/EdtCNPJCli"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:label="CNPJ" />
+<TextView
+	android:id="@+id/widget41"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Inscri&#231;&#227;o Estadual" />
+<EditText
+	android:id="@+id/EdtInsCli"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="18sp" />
+<TextView
+	android:id="@+id/widget43"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Tipo de Venda" />
+<RadioGroup
+	android:id="@+id/RGTipoVenda"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+<RadioButton
+	android:id="@+id/RBNormal"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Normal" />
+<RadioButton
+	android:id="@+id/RBZonaFranca"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Zona Franca" />
+<RadioButton
+	android:id="@+id/RBLivreComercio"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Livre Com&#233;rcio" />
+</RadioGroup>
+<TextView
+	android:id="@+id/widget48"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Raz&#227;o Social" />
+<EditText
+	android:id="@+id/EdtRazCli"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp" />
+<TextView
+	android:id="@+id/widget50"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Nome Fantasia" />
+<EditText
+	android:id="@+id/EdtFanCli"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp" />
+<TextView
+	android:id="@+id/widget52"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Endere&#231;o" />
+<EditText
+	android:id="@+id/EdtEndCli"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp" />
+<TextView
+	android:id="@+id/widget54"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Numero" />
+<EditText
+	android:id="@+id/EdtNumCli"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp" />
+<TextView
+	android:id="@+id/widget56"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Bairro" />
+<EditText
+	android:id="@+id/EdtBaiCli"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp" />
+<TextView
+	android:id="@+id/widget58"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="CEP" />
+<EditText
+	android:id="@+id/EdtCepCli"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp" />
+
+
+
+<TextView
+	android:id="@+id/widget60"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Telefone" />
+<TableRow
+	android:id="@+id/widget62"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+<EditText
+	android:id="@+id/EdtDDDFonCli"
+	android:layout_width="60dp"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp"
+	android:inputType="number"  />
+<EditText
+	android:id="@+id/EdtFonCli"
+	android:layout_width="300dp"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp"
+	android:inputType="number"  />
+</TableRow>
+<TextView
+	android:id="@+id/widget65"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="E-Mail" />
+
+<EditText
+    android:id="@+id/EdtEmailCli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textEmailAddress" />
+
+<TextView
+	android:id="@+id/widget68"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Observação" />
+
+<EditText
+    android:id="@+id/EdtObsCli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textMultiLine" >
+
+  
+</EditText>
+<TextView
+	android:id="@+id/widget71"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Alerta" />
+
+<EditText
+    android:id="@+id/EdtAlerta"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:inputType="textMultiLine" />
+
+
+<TextView
+	android:id="@+id/widget71"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Cidade" />
+
+<EditText
+    android:id="@+id/EdtCidCli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10" />
+
+
+<TextView
+	android:id="@+id/widget71"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Estado" />
+
+<EditText
+    android:id="@+id/EdtEstCli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10" />
+
+
+
+<TextView
+	android:id="@+id/widget71"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Endereço para cobrança" />
+
+<EditText
+    android:id="@+id/EdtEndCobCli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10" />
+
+
+<TextView
+	android:id="@+id/widget71"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Numero para cobrança" />
+
+<EditText
+    android:id="@+id/EdtNumCobCli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10" />
+
+<TextView
+	android:id="@+id/widget71"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Bairro para cobrança" />
+
+<EditText
+    android:id="@+id/EdtBaiCobCli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10" />
+
+
+<TextView
+	android:id="@+id/widget71"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="CEP para cobrança" />
+
+<EditText
+    android:id="@+id/EdtCepCobCli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10" />
+
+
+<TextView
+	android:id="@+id/widget71"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="CPF " />
+
+<EditText
+    android:id="@+id/EdtCpfCli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10" />
+
+<TextView
+	android:id="@+id/widget71"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="RG" />
+
+<EditText
+    android:id="@+id/EdtRGCli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10" />
+
+
+
+<TextView
+	android:id="@+id/widget71"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Nome do Proprietario" />
+
+<EditText
+    android:id="@+id/EdtNomPropCli"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10" />
+
+
+<Button
+    android:id="@+id/BtnCadastra"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Cadastrar" />
+</TableLayout>
+</ScrollView>
